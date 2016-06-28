@@ -5,7 +5,7 @@ HAProxy is a free, open source high availability solution, providing load balanc
 
 ##How to use this image
 
-docker run -d --name my-running-haproxy -v /path/to/haproxy.cfg:/etc/haproxy/haproxy.cfg:ro basivireddy/haproxy:1.5
+docker run -d --name my-running-haproxy -v /path/to/haproxy.cfg:/etc/haproxy/haproxy.cfg:ro n42inc/haproxy:1.5
 
-For sample haproxy.cfg : https://raw.githubusercontent.com/basivireddy/haproxy/master/haproxy.cfg
+For sample haproxy.cfg : https://github.com/N42Inc/haproxy/blob/master/haproxy.cfg
 
